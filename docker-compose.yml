@@ -1,0 +1,17 @@
+version: '3'
+services:
+  api:
+    image: bpaolo/survey
+    ports:
+      - "5000:3001"
+    build: "./survey"
+    container_name: api-container
+    restart: always
+    volumes:
+      - ./survey:/app
+      - ./app:/node_modules
+     
+
+    
+    
+  
