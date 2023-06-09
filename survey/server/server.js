@@ -4,7 +4,7 @@ const app = express();
 
 app.use(express.json());
 app.use(cors());
-app.use('/', require('./route/postsRoute'));
+
 app.use('/', require('./route/questionRoute'));
 app.use('/', require('./route/optionRoute'));
 app.use('/', require('./route/resultRoute'));

@@ -2,5 +2,13 @@
 poll design with free voting
 
 
-#survey : api
-#survey-front : web
+# requisitos
+- Ter docker instalado na máquina
+- Clonar repositório SURVEY-PROJECT
+    API : survey
+    Web : survey-front
+
+# instrução para configurar projeto
+docker-composer up
+
+
